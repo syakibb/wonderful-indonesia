@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raja Ampat - Wonderful Indonesia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>#map-rajaampat { height: 250px; width: 100%; border-radius: 0.5rem; }</style>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="destination-header">
+                <h1 class="destination-title">Raja Ampat</h1>
+                <div class="destination-location"><i class="fas fa-map-marker-alt"></i> Papua Barat Daya, Indonesia</div>
+            </div>
+
+            <div class="destination-content">
+                <div class="content-main">
+                    <div class="destination-main-image"><img src="images/rajaampat-main.jpg" alt="Pemandangan Raja Ampat"></div>
+                    <h2>Tentang Raja Ampat</h2>
+                    <p>Kepulauan Raja Ampat adalah surga tropis yang terkenal dengan keindahan alam bawah laut dan gugusan pulau-pulau karst yang ikonik. Nama 'Raja Ampat' berarti 'Empat Raja', merujuk pada empat pulau utamanya: Waigeo, Batanta, Salawati, dan Misool.</p>
+                    <h3>Aktivitas Wisata</h3>
+                    <div class="activities-grid">
+                        <div class="activity-item"><i class="fas fa-swimmer"></i> <span>Snorkeling & Diving</span></div>
+                        <div class="activity-item"><i class="fas fa-ship"></i> <span>Island Hopping</span></div>
+                    </div>
+                    <h3>Informasi Praktis</h3>
+                    <div class="info-box">
+                        <ul>
+                            <li><strong>Jam Buka:</strong> <span>24 Jam (tergantung tur)</span></li>
+                            <li><strong>Tiket Masuk:</strong> <span>Biaya PIN Konservasi (KLB)</span></li>
+                            <li><strong>Waktu Terbaik:</strong> <span>Oktober - April</span></li>
+                        </ul>
+                    </div>
+                    <h3>Informasi Teknis</h3>
+                    <div class="info-box">
+                        <ul>
+                            <li><strong>Tipe:</strong> <span>Kepulauan Karst</span></li>
+                            <li><strong>Pulau Utama:</strong> <span>4 (Empat)</span></li>
+                            <li><strong>Luas Area:</strong> <span>± 4.6 juta hektar</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="content-sidebar">
+                    <section>
+                        <h3>Galeri Foto</h3>
+                        <div class="gallery-grid">
+                            <div class="gallery-item"><img src="images/rajaampat-gallery1.jpg" alt="Bawah Laut Raja Ampat"></div>
+                            <div class="gallery-item"><img src="images/rajaampat-gallery2.jpg" alt="Pulau Karst"></div>
+                            <div class="gallery-item"><img src="images/rajaampat-card.jpg" alt="Pianemo"></div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Lokasi</h3>
+                        <div class="map-placeholder">
+                           <p><strong>Peta Interaktif</strong></p>
+                            <div id="map-rajaampat" style="margin-top:1rem;"></div>
+                        </div>
+                    </section>
+                </aside>
+            </div>
+        </div>
+    </main>
+    
+    <div id="footer-placeholder"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>

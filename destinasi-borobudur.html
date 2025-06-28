@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candi Borobudur - Wonderful Indonesia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>#map-borobudur { height: 250px; width: 100%; border-radius: 0.5rem; }</style>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="destination-header">
+                <h1 class="destination-title">Candi Borobudur</h1>
+                <div class="destination-location"><i class="fas fa-map-marker-alt"></i> Magelang, Jawa Tengah</div>
+            </div>
+
+            <div class="destination-content">
+                <div class="content-main">
+                    <div class="destination-main-image"><img src="images/borobudur-main.jpg" alt="Pemandangan Candi Borobudur"></div>
+                    <h2>Tentang Borobudur</h2>
+                    <p>Candi Borobudur adalah candi Buddha Mahayana terbesar di dunia. Dibangun pada abad ke-9, monumen ini terdiri dari sembilan teras berundak, enam teras persegi dan tiga teras bundar, diatapi oleh sebuah stupa utama di puncaknya.</p>
+                    <h3>Aktivitas Wisata</h3>
+                    <div class="activities-grid">
+                        <div class="activity-item"><i class="fas fa-camera"></i> <span>Fotografi Sunrise</span></div>
+                        <div class="activity-item"><i class="fas fa-book-open"></i> <span>Tur Sejarah Relief</span></div>
+                    </div>
+                    <h3>Informasi Praktis</h3>
+                    <div class="info-box">
+                        <ul>
+                            <li><strong>Jam Buka:</strong> <span>09.00 - 17.00 WIB (Struktur Candi)</span></li>
+                            <li><strong>Tiket Masuk:</strong> <span>Domestik: Mulai Rp 50.000</span></li>
+                            <li><strong>Waktu Terbaik:</strong> <span>Pagi hari (06.00-09.00)</span></li>
+                        </ul>
+                    </div>
+                    <h3>Informasi Teknis</h3>
+                    <div class="info-box">
+                        <ul>
+                            <li><strong>Tipe:</strong> <span>Candi Buddha Mahayana</span></li>
+                            <li><strong>Tinggi:</strong> <span>35.4 meter</span></li>
+                            <li><strong>Relief:</strong> <span>2,672 panel</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="content-sidebar">
+                    <section>
+                        <h3>Galeri Foto</h3>
+                        <div class="gallery-grid">
+                            <div class="gallery-item"><img src="images/borobudur-gallery1.jpg" alt="Relief Borobudur"></div>
+                            <div class="gallery-item"><img src="images/borobudur-gallery2.jpg" alt="Stupa Borobudur"></div>
+                            <div class="gallery-item"><img src="images/borobudur-card.jpg" alt="Arca Buddha"></div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Lokasi</h3>
+                        <div class="map-placeholder">
+                            <p><strong>Peta Interaktif</strong></p>
+                            <div id="map-borobudur" style="margin-top:1rem;"></div>
+                        </div>
+                    </section>
+                </aside>
+            </div>
+        </div>
+    </main>
+    
+    <div id="footer-placeholder"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>

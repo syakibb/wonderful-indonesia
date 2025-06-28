@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunung Bromo - Wonderful Indonesia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>#map-bromo { height: 250px; width: 100%; border-radius: 0.5rem; }</style>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="destination-header">
+                <h1 class="destination-title">Gunung Bromo</h1>
+                <div class="destination-location"><i class="fas fa-map-marker-alt"></i> Jawa Timur, Indonesia</div>
+            </div>
+
+            <div class="destination-content">
+                <div class="content-main">
+                    <div class="destination-main-image"><img src="images/bromo-main.jpg" alt="Pemandangan Gunung Bromo"></div>
+                    <h2>Tentang Gunung Bromo</h2>
+                    <p>Gunung Bromo adalah bagian dari Taman Nasional Bromo Tengger Semeru dan merupakan salah satu gunung berapi paling ikonik di Indonesia. Pemandangan matahari terbit dengan latar belakang gunung berapi yang megah adalah daya tarik utamanya.</p>
+                    <h3>Aktivitas Wisata</h3>
+                    <div class="activities-grid">
+                        <div class="activity-item"><i class="fas fa-sun"></i> <span>Melihat Sunrise</span></div>
+                        <div class="activity-item"><i class="fas fa-car"></i> <span>Tur Jeep 4x4</span></div>
+                    </div>
+                    <h3>Informasi Praktis</h3>
+                    <div class="info-box">
+                        <ul>
+                            <li><strong>Jam Buka:</strong> <span>24 Jam (terbaik dini hari)</span></li>
+                            <li><strong>Tiket Masuk:</strong> <span>Domestik: Mulai Rp 29.000</span></li>
+                            <li><strong>Waktu Terbaik:</strong> <span>April - Oktober</span></li>
+                        </ul>
+                    </div>
+                    <h3>Informasi Teknis</h3>
+                    <div class="info-box">
+                        <ul>
+                            <li><strong>Tipe:</strong> <span>Gunung Berapi Aktif</span></li>
+                            <li><strong>Ketinggian:</strong> <span>2,329 mdpl</span></li>
+                            <li><strong>Kaldera:</strong> <span>Lautan Pasir Tengger</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="content-sidebar">
+                    <section>
+                        <h3>Galeri Foto</h3>
+                        <div class="gallery-grid">
+                            <div class="gallery-item"><img src="images/bromo-gallery1.jpg" alt="Lautan Pasir Bromo"></div>
+                            <div class="gallery-item"><img src="images/bromo-gallery2.jpg" alt="Kawah Bromo"></div>
+                            <div class="gallery-item"><img src="images/bromo-card.jpg" alt="Jeep di Bromo"></div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Lokasi</h3>
+                        <div class="map-placeholder">
+                           <p><strong>Peta Interaktif</strong></p>
+                            <div id="map-bromo" style="margin-top:1rem;"></div>
+                        </div>
+                    </section>
+                </aside>
+            </div>
+        </div>
+    </main>
+    
+    <div id="footer-placeholder"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
